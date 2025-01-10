@@ -52,4 +52,49 @@ body {
       }
     }
   }
+
+  & main {
+    & #container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & .slogan {
+        margin-bottom: 50px;
+        & img {
+          margin-left: -80px;
+        }
+
+        & h1 {
+          font-size: 54px;
+          font-weight: 500;
+        }
+      }
+
+      & .btns {
+        display: flex;
+        gap: 100px;
+
+        & .btn {
+          width: 250px;
+          height: 54px;
+          border-radius: 8px;
+          font-size: 24px;
+          border: none;
+          cursor: pointer;
+        }
+
+        & .first-btn {
+          background-color: #34C954;
+        }
+
+        & .second-btn {
+          background-color: #2C29EA;
+        }
+      }
+    }
+  }
 }
