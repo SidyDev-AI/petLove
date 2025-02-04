@@ -1,0 +1,10 @@
+Tecnologias e metodos que devem ser aplicados no projeto
+
+techs: 
+  FrontEnd:
+    HTML, CSS e JS
+  BackEnd:
+    PHP 
+
+Estrutura MVC
+Integração com API
