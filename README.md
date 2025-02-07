@@ -1,4 +1,5 @@
 # Pet Love
+![Logo](./src/img/LogoBanner.png)
 
 ## Metodos e tecnologias utilizadas no projeto:
 ### Techs:
